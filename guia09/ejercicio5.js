@@ -1,6 +1,3 @@
-// Ejercicio 5: Usar finally para código que siempre se ejecuta
-// Código con finally
-
 function dividir(a, b) {
     if (b === 0) {
         throw new Error("No se puede dividir por cero");
