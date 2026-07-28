@@ -1,6 +1,3 @@
-// Ejercicio 2: Corregir formato y nombres
-// Código con indentación y mensaje claro
-
 try {
     let numeros = [1, 2, 3];
     console.log(numeros[10]);
