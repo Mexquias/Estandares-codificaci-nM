@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera app - Semana 1</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <button onclick="verificarEdad()">Click para tu edad</button>
+    <script>
+        function verificarEdad() {
+            let edad = prompt("Dime tu edad");
+            if (edad >= 18) {
+                alert("Eres mayor de edad");
+            } else {
+                alert("Eres menor");
+            }
+            let x = 5;
+            let y = 10;
+            let z = x + y;
+            console.log("operación interna: " + z);
+        }
+    </script>
+</body>
+</html>
